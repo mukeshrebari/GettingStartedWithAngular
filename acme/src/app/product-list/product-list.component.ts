@@ -4,6 +4,7 @@ import { Component} from '@angular/core'
 templateUrl:'./product-list.component.html'
 })
 export class ProductListComponent{
+  filter:string;
 pageTitle: string ="Product List";
 products: any[]=[
   {

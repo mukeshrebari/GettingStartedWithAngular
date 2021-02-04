@@ -4,12 +4,12 @@
         <div class="row">
             <div class="col-md-2">Filter By</div>
             <div class="col-md-4">
-                <input type="text" />
+                <input type="text" [(ngModel)]="filter"/>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h1>Filtered By</h1>
+                <h1>Filtered By: {{filter}}</h1>
             </div>
         </div>
         <div class="table-responsive">
