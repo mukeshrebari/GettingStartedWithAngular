@@ -30,8 +30,8 @@
                 <tbody>
                     <tr *ngFor="let p of products">
                         <td></td>
-                        <td>{{p.name}}</td>
-                        <td>{{p.rate}}</td>
+                        <td>{{p.name | uppercase}}</td>
+                        <td>{{p.rate | currency:'Rs.':'symbol':'1.2-2'}}</td>
                         <td>{{p.available}}</td>
                         <td></td>
                     </tr>
